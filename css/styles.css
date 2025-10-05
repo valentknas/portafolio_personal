@@ -61,5 +61,128 @@ body {
     margin-top: 20px;
     border: 4px solid #b84eff;
     box-shadow: 0 0 25px #b84eff;
-    
 }
+
+/* 🔹 Sección "Sobre mí" */
+.sobre-mi-section {
+    background-color: #12001e;
+    padding: 100px;
+    color: #fff;
+    position: relative;
+}
+
+/* Título */
+.titulo-sobre-mi {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #b84eff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Texto */
+.texto-sobre-mi {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.texto-sobre-mi span {
+    color: #b84eff;
+    font-weight: 600;
+}
+
+/* Botón */
+.btn-sobre-mi {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #b84eff;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-sobre-mi:hover {
+    background-color: #fff;
+    color: #b84eff;
+    box-shadow: 0 0 15px #b84eff;
+}
+
+/* Imagen */
+.foto-sobre-mi {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #b84eff;
+    box-shadow: 0 0 25px #b84eff;
+    transition: 0.4s;
+}
+
+.foto-sobre-mi:hover {
+    transform: scale(1.05);
+}
+
+.habilidades {
+  background: linear-gradient(90deg, rgba(34,0,51,0.9), rgba(0,0,0,0.9)), 
+                url('../img/fondo-morado.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 100px 10%;
+  text-align: center;
+}
+
+.habilidades h2 {
+  font-size: 2.2rem;
+  color: #b84eff;
+  margin-bottom: 60px;
+}
+
+/* 🔹 Grid adaptable */
+.lista-habilidades {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+/* 🔹 Tarjetas */
+.habilidad {
+  background-color: #2e0236;
+  border-radius: 20px;
+  padding: 35px 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 15px rgba(184, 78, 255, 0.15);
+}
+
+.habilidad:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(184, 78, 255, 0.4);
+}
+
+/* 🔹 Íconos */
+.habilidad i {
+  font-size: 3rem;
+  color: #b84eff;
+  margin-bottom: 15px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.habilidad:hover i {
+  color: #d18aff;
+  transform: scale(1.1);
+}
+
+.habilidad h3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.habilidad p {
+  font-size: 0.95rem;
+  color: #d9d9d9;
+}
+
+
