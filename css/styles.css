@@ -1,0 +1,65 @@
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0b0014;
+}
+
+
+.header-personal {
+    background-color: #2d003a;
+    box-shadow: 0 0 15px #b84eff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+
+.logo-vp {
+    color: #b84eff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+
+.menu-personal .nav-link {
+    color: white;
+    font-weight: 600;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.menu-personal .nav-link:hover {
+    color: #b84eff;
+}
+
+
+.inicio-section {
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(34,0,51,0.9), rgba(0,0,0,0.9)), 
+                url('../img/fondo-morado.jpg') no-repeat center center/cover;
+    padding-top: 70px;
+}
+
+
+.contenido-principal h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.contenido-principal h2 span {
+    color: #b84eff;
+    font-weight: 700;
+}
+
+.contenedor-foto img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 4px solid #b84eff;
+    box-shadow: 0 0 25px #b84eff;
+    
+}
