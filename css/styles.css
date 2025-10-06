@@ -13,7 +13,7 @@ body {
     width: 100%;
     top: 0;
     z-index: 10;
-}
+} 
 
 
 .logo-vp {
@@ -93,7 +93,7 @@ body {
 /* 🔹 Sección "Sobre mí" */
 .sobre-mi-section {
     background-color: #12001e;
-    padding: 100px;
+    padding: 150px;
     color: #fff;
     position: relative;
 }
@@ -110,7 +110,7 @@ body {
 
 /* Texto */
 .texto-sobre-mi {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     line-height: 1.7;
     margin-bottom: 15px;
 }
@@ -141,8 +141,8 @@ body {
 
 /* Imagen */
 .foto-sobre-mi {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 50%;
     border: 4px solid #b84eff;
@@ -215,8 +215,13 @@ body {
 /* Sección general */
 #portafolio {
     background-color: #12001e;
-    padding: 60px 0;
+    padding: 230px 0;
     color: white;
+}
+
+.href{
+    color: #b84eff;
+    font-size: 1.0rem;
 }
 
 #portafolio h2 {
@@ -276,7 +281,7 @@ body {
 .titulo-educacion {
     color: #b84eff; 
     font-size: 2.0rem;
-    padding-top: 40px;
+    padding-top: 80px;
     font-weight: bold;
     text-align: center; 
     margin-left: 10%; 
@@ -384,13 +389,13 @@ body {
 }
 
 .hobby-box:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+   transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(181, 176, 184, 0.4);
 }
 
 .hobby-icon {
     font-size: 50px;
-    color: #000000;
+    color: #b84eff;
     margin-bottom: 15px;
 }
 
@@ -403,7 +408,7 @@ body {
 
 footer{
     padding: 60px;
-    background: #1d0031;
+    background: #000000;
     text-align: center;
     color: #110c14;
     font-weight: bold;
@@ -416,6 +421,8 @@ footer img{
     cursor: pointer;
 
 }
+
+
 
 
 
