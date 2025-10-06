@@ -1,4 +1,4 @@
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -162,6 +162,7 @@ body {
 }
 
 .habilidades h2 {
+    font-weight: bold;
   font-size: 2.2rem;
   color: #b84eff;
   margin-bottom: 60px;
@@ -221,6 +222,7 @@ body {
 #portafolio h2 {
     text-align: center;
     font-size: 2.5rem;
+    font-weight: bold;
     margin-bottom: 40px;
     color: #b84eff;
 }
@@ -271,34 +273,29 @@ body {
 
 }
 
-
-
-
-/* Estilo del título principal */
 .titulo-educacion {
-    color: #b84eff; /* Púrpura brillante para el título */
+    color: #b84eff; 
     font-size: 2.0rem;
-    padding-top: 30px;
+    padding-top: 40px;
     font-weight: bold;
-    text-align: center; /* Título alineado a la izquierda */
-    margin-left: 10%; /* Ajusta esto si necesitas mover el título más a la derecha */
+    text-align: center; 
+    margin-left: 10%; 
 }
 
-/* Estilo para cada línea de texto educativo */
+
 .item-educacion {
-    color: #fff; /* Texto blanco */
+    color: #fff; 
     font-size: 1.5rem;
-    padding-bottom: 5px; /* Pequeño espacio entre el texto y la línea */
+    padding-bottom: 5px; 
     margin-top: 50px;
 }
 
-/* Estilo para la línea divisora (usamos la etiqueta <hr>) */
 .divisor-educacion {
-    border: 0; /* Reinicia el estilo por defecto de la línea */
-    height: 3px; /* Grosor de la línea */
-    background-color: #552594; /* Color de la línea (un púrpura más oscuro) */
-    opacity: 1; /* Asegura que la línea sea completamente visible */
-    margin-bottom: 30px; /* Espacio después de la línea */
+    border: 0; 
+    height: 3px; 
+    background-color: #552594;
+    opacity: 1; 
+    margin-bottom: 30px; 
 }
 
 
@@ -309,6 +306,107 @@ body {
         padding-left: 15px; 
     }
 }
+
+
+
+.titulo-principal {
+    color: #9A50BA; 
+    font-size: 2.0em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.tarjeta-experiencia {
+    background-color: #2e0236; 
+    border-radius: 15px; 
+    padding: 30px; 
+    margin: 40px auto; 
+    max-width: 800px; 
+    border: 2px solid transparent; 
+    background-clip: padding-box;
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px; 
+    transition: 2s;
+}
+
+
+
+.tarjeta-experiencia:hover {
+    transform: translateY(-8px) rotateY(1deg) scale(1.02);
+    box-shadow: 
+    0 4px 15px rgba(184, 78, 255, 0.5),
+     0 15px 40px rgba(0, 0, 0, 0.8);    
+    background-color: #3f0347; 
+}
+
+
+
+
+.contenido-derecho h3 {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.contenido-derecho ul {
+    color: #D3B9EA; 
+    font-size: 1.1em;
+}
+
+.contenido-derecho p{
+    color: #b84eff;
+}
+.hobbies-seccion {
+   background: linear-gradient(90deg, rgba(34,0,51,0.9), rgba(0,0,0,0.9));
+    padding: 80px 20px;
+    color: white;
+}
+
+.titulo-hobbies {
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: #b84eff;
+    margin-bottom: 60px;
+}
+
+.hobby-card {
+    padding: 20px;
+}
+
+.hobby-box {
+    background-color: #4e0c6c;
+    border-radius: 15px;
+    padding: 30px 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hobby-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+.hobby-icon {
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.hobby-nombre {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #000000;
+    margin: 0;
+}
+
+
+
+
+
+
+
 
 
 
