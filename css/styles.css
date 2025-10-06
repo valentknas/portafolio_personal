@@ -38,17 +38,14 @@ body {
 
 .inicio-section {
     height: 100vh;
-    background: linear-gradient(90deg, rgba(34,0,51,0.9), rgba(0,0,0,0.9)), 
-                url('../img/fondo-morado.jpg') no-repeat center center/cover;
+    background: linear-gradient(90deg, rgba(34,0,51,0.9), rgba(0,0,0,0.9));
     padding-top: 70px;
 }
 
 
 
 .hero-section {
-
-   background: linear-gradient(90deg, rgba(34,0,51,0.9), rgba(0,0,0,0.9)), 
-                url('../img/fondo-morado.jpg') no-repeat center center/cover;
+   background: linear-gradient(90deg, rgba(34,0,51,0.9), rgba(0,0,0,0.9));
     background-size: cover;
     background-position: center;
     color: white;
@@ -158,8 +155,7 @@ body {
 }
 
 .habilidades {
-  background: linear-gradient(90deg, rgba(34,0,51,0.9), rgba(0,0,0,0.9)), 
-                url('../img/fondo-morado.jpg') no-repeat center center/cover;
+  background: linear-gradient(90deg, rgba(34,0,51,0.9), rgba(0,0,0,0.9));
   color: white;
   padding: 100px 10%;
   text-align: center;
@@ -269,6 +265,49 @@ body {
     font-size: 0.95rem;
     color: #cccccc;
     margin: 0;
+}
+.educacion-seccion {
+      background: linear-gradient(90deg, rgba(34,0,51,0.9), rgba(0,0,0,0.9));
+
+}
+
+
+
+
+/* Estilo del título principal */
+.titulo-educacion {
+    color: #b84eff; /* Púrpura brillante para el título */
+    font-size: 2.0rem;
+    padding-top: 30px;
+    font-weight: bold;
+    text-align: center; /* Título alineado a la izquierda */
+    margin-left: 10%; /* Ajusta esto si necesitas mover el título más a la derecha */
+}
+
+/* Estilo para cada línea de texto educativo */
+.item-educacion {
+    color: #fff; /* Texto blanco */
+    font-size: 1.5rem;
+    padding-bottom: 5px; /* Pequeño espacio entre el texto y la línea */
+    margin-top: 50px;
+}
+
+/* Estilo para la línea divisora (usamos la etiqueta <hr>) */
+.divisor-educacion {
+    border: 0; /* Reinicia el estilo por defecto de la línea */
+    height: 3px; /* Grosor de la línea */
+    background-color: #552594; /* Color de la línea (un púrpura más oscuro) */
+    opacity: 1; /* Asegura que la línea sea completamente visible */
+    margin-bottom: 30px; /* Espacio después de la línea */
+}
+
+
+@media (min-width: 768px) {
+   
+    .titulo-educacion {
+        margin-left: 0; 
+        padding-left: 15px; 
+    }
 }
 
 
