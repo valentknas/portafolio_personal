@@ -44,24 +44,54 @@ body {
 }
 
 
-.contenido-principal h2 {
-    font-size: 2.5rem;
-    font-weight: 600;
+
+.hero-section {
+
+   background: linear-gradient(90deg, rgba(34,0,51,0.9), rgba(0,0,0,0.9)), 
+                url('../img/fondo-morado.jpg') no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 200px 0;
 }
 
-.contenido-principal h2 span {
+
+.text-content h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: white;
+}
+
+.text-content h1 span {
     color: #b84eff;
     font-weight: 700;
+    font-style: italic;
 }
 
-.contenedor-foto img {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    margin-top: 20px;
-    border: 4px solid #b84eff;
-    box-shadow: 0 0 25px #b84eff;
+.text-content p {
+      font-size: 2rem; /* Aumentado */
+    font-weight: 600;
+    color: white;
+    margin: 0;
 }
+
+/* Imagen redonda con sombra */
+.foto-container {
+    background: radial-gradient(circle at center, rgba(184, 78, 255, 0.3), transparent 60%);
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.foto-perfil {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(184, 78, 255, 0.6);
+}
+
 
 /* 🔹 Sección "Sobre mí" */
 .sobre-mi-section {
@@ -184,5 +214,63 @@ body {
   font-size: 0.95rem;
   color: #d9d9d9;
 }
+
+/* Sección general */
+#portafolio {
+    background-color: #12001e;
+    padding: 60px 0;
+    color: white;
+}
+
+#portafolio h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #b84eff;
+}
+
+/* Tarjetas destacadas */
+.card-destacadas {
+    background-color: #1d0031;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 0;
+}
+
+/* Hover con elevación */
+.card-destacadas:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(184, 78, 255, 0.4);
+}
+
+/* Imagen de la tarjeta */
+.card-destacadas img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Contenido debajo de la imagen */
+.card-destacadas .cont-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-destacadas h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.card-destacadas p {
+    font-size: 0.95rem;
+    color: #cccccc;
+    margin: 0;
+}
+
+
 
 
