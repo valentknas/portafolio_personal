@@ -401,6 +401,25 @@ body {
     margin: 0;
 }
 
+footer{
+    padding: 60px;
+    background: #1d0031;
+    text-align: center;
+    color: #110c14;
+    font-weight: bold;
+}
+
+footer img{
+    width: 50px;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+
+}
+
+
+
+
 
 
 
